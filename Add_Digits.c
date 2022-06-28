@@ -1,5 +1,5 @@
 #include<stdio.h>
-int digSum(int n)
+int digitSum(int n)
 {
     int sum=0;
     while(n>0 || sum>9)
@@ -18,6 +18,6 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    printf("%d",digSum(n));
+    printf("%d",digitSum(n));
     return 0;
 }
