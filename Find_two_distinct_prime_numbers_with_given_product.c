@@ -24,7 +24,7 @@ int main()
         }
     }
     int y=0;
-    for(i=0;i<k;i++)
+    for (i=0;i<k;i++)
     {
         for(j=1;j<=k;j++)
         {
